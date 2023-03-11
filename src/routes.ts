@@ -30,6 +30,8 @@ router.addHandler('inicial', async ({ request, page, log }) => {
     log.info('Chegando em inicial')
     log.info(request.url)
 
+    await page.waitForSelector('.fw_menu')
+
     const modal = await page.locator('.fw_menu_container').innerHTML()
     log.info(`${modal}`)
 });
