@@ -32,6 +32,12 @@ router.addHandler('inicial', async ({ request, page, log }) => {
 
     await page.waitForSelector('.fw_menu')
 
-    const modal = await page.locator('.fw_menu_container').innerHTML()
-    log.info(`${modal}`)
+    const modal = page.locator('.fw_menu_container')
+
+    const links = await modal.locator('a').all()
+
+    links.forEach(async link => {
+        log.info(await link.getAttribute('href'))
+        log.info(await link.innerHTML())
+    }) 
 });
