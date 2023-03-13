@@ -2,6 +2,7 @@
     "name": "alexandreCrawlee",
     "version": "0.0.1",
     "type": "module",
+    "main": "dist/main.js",
     "description": "This is an example of a Crawlee project.",
     "dependencies": {
         "crawlee": "^3.0.0",

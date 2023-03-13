@@ -1,9 +1,12 @@
-import path from 'path'
-import { Dataset, createPlaywrightRouter, RequestOptions, RequestQueue, Request, purgeDefaultStorages } from 'crawlee';
+import { createPlaywrightRouter } from 'crawlee';
+import {a} from './cer'
 
+const ab = a
 export const router = createPlaywrightRouter();
 
 const routine = '1906'
+
+//const f = await captureNf({order: '754658'})
 
 router.addHandler('login', async ({ crawler, page}) => {
     const userField = page.getByPlaceholder('Usuário')
@@ -40,12 +43,18 @@ router.addHandler('inicial', async ({page, crawler}) => {
   await crawler.addRequests(queue)
 });
 
-router.addHandler('1906 - Central de Vendas', async ({ page }) => {
-  await page.waitForLoadState(`load`)
+/* router.addHandler('1906 - Central de Vendas') */
+
+router.addDefaultHandler(({request}) => {
+  console.log(request.label)
+})
+
+/* 
+await page.waitForLoadState(`load`)
 
   const container = page.locator('.fastsearchContainerSearch')
   await container.click()
-  const order = '854520'
+  const order = '795404'
   await page.locator('input[name=idVenda]').fill(order)
   await page.press('input[name=idVenda]', 'Enter')
 
@@ -57,7 +66,6 @@ router.addHandler('1906 - Central de Vendas', async ({ page }) => {
     console.log('nada encontrado')
     return
   }
-
   const numberNFField = resultTable.nth(5)
   const numberNf = await numberNFField.textContent()
   
@@ -65,12 +73,14 @@ router.addHandler('1906 - Central de Vendas', async ({ page }) => {
     console.log('Nao existe link')
     return
   }
+  const typeNF = await resultTable.nth(4).textContent()
 
   await numberNFField.click()
   const downloadPromise = page.waitForEvent('download')
   await page.waitForURL('**\/ver_assistente\/**')
   const download = await downloadPromise
-  const pathDownload = path.join(process.cwd(), 'storage', 'downloads', order, download.suggestedFilename())
+  const name = `${typeNF}_${numberNf}.${download.suggestedFilename().split('.').at(-1)}`
+  const pathDownload = path.join(process.cwd(), 'storage', 'downloads', order, name)
   await download.saveAs(pathDownload)
 
   //console.log(pathDownload)
@@ -79,11 +89,6 @@ router.addHandler('1906 - Central de Vendas', async ({ page }) => {
   const downloadPromise2 = page.waitForEvent('download')
   await downloadButton.click()
   const download2 = await downloadPromise2
-  
-  const pathDownload2 = path.join(process.cwd(), 'storage', 'downloads', order, download2.suggestedFilename())
-  await download2.saveAs(pathDownload2)
-})
-
-router.addDefaultHandler(({request}) => {
-  console.log(request.label)
-})
+  const name2 = `${typeNF}_${numberNf}.${download2.suggestedFilename().split('.').at(-1)}`
+  const pathDownload2 = path.join(process.cwd(), 'storage', 'downloads', order, name2)
+  await download2.saveAs(pathDownload2) */
