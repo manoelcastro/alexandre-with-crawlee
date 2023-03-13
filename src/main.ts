@@ -9,8 +9,7 @@ const startUrls = [{
 
 const crawler = new PlaywrightCrawler({
     // proxyConfiguration: new ProxyConfiguration({ proxyUrls: ['...'] }),
-    requestHandler: router,
-    headless: false
+    requestHandler: router
 });
 
 await crawler.run(startUrls);
