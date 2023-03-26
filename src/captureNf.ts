@@ -1,15 +1,16 @@
-import {PlaywrightCrawlingContext} from 'crawlee'
+import { PlaywrightCrawlingContext } from 'crawlee'
 import path from 'path'
 
 interface ICaptureNfDTO {
   order: string
 }
 
-export const captureNf = async ({ order }: ICaptureNfDTO) => {
+export const captureNf = ({ order }: ICaptureNfDTO) => {
   return async ({ page }: PlaywrightCrawlingContext) => {
     await page.waitForLoadState(`load`)
 
     const openSearchFields = page.locator('.fastsearchContainerSearch')
+    
     await openSearchFields.click()
 
     await page.locator('input[name=idVenda]').fill(order)
