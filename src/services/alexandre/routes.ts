@@ -24,23 +24,20 @@ router.addHandler('login', async ({ crawler, page, request }) => {
 
 router.addHandler('inicial', async ({ page, crawler, request }) => {
   const { userData } = request
-  const { route } = userData
 
   await page.waitForSelector('.fw_menu')
   
   const modal = page.locator('.fw_menu_container')
   const links = modal.locator('a')
   
-
-  const menu = await links.evaluateAll(elements => {    
+  const queue = await links.evaluateAll((elements, userData) => {    
     return elements.map(element => (element.textContent !== '' ? {
+      userData,
       label: element.textContent as string,
       url: `https://srv1.meuewiki.com.br/mgerencia/#${element.getAttribute('href')}`,
-      uniqueKey: `https://srv1.meuewiki.com.br/mgerencia/#${element.getAttribute('href')}`
-    } : null)).filter(Boolean)
-  })
-
-  const queue = menu.filter(obj => obj?.label.includes(route)).map(q => ({...q, userData}))
+      uniqueKey: `https://srv1.meuewiki.com.br/mgerencia/#${element.getAttribute('href')}-${userData.data.order}`
+    } : null)).filter(Boolean).filter(obj => obj?.label.includes(userData.route))
+  }, userData)
   
   //@ts-ignore
   await crawler.addRequests(queue)

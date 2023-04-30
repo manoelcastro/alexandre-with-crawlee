@@ -1,0 +1,5696 @@
+{
+  "nfeProc": {
+    "$": {
+      "xmlns": "http://www.portalfiscal.inf.br/nfe",
+      "versao": "4.00"
+    },
+    "NFe": {
+      "infNFe": {
+        "$": {
+          "Id": "NFe52220676635689001326550010003121011000338294",
+          "versao": "4.00"
+        },
+        "ide": {
+          "cUF": "52",
+          "cNF": "00033829",
+          "natOp": "VENDA DE MERCADORIA",
+          "mod": "55",
+          "serie": "1",
+          "nNF": "312101",
+          "dhEmi": "2022-06-01T16:42:00-03:00",
+          "dhSaiEnt": "2022-06-01T16:42:12-03:00",
+          "tpNF": "1",
+          "idDest": "2",
+          "cMunFG": "5201405",
+          "tpImp": "2",
+          "tpEmis": "1",
+          "cDV": "4",
+          "tpAmb": "1",
+          "finNFe": "1",
+          "indFinal": "0",
+          "indPres": "3",
+          "indIntermed": "0",
+          "procEmi": "0",
+          "verProc": "3.102.1"
+        },
+        "emit": {
+          "CNPJ": "76635689001326",
+          "xNome": "O.V.D. IMPORTADORA E DISTRIBUIDORA LTDA",
+          "xFant": "OSTEN",
+          "enderEmit": {
+            "xLgr": "AV MARIA E L SANTOS AREA 02 QD 16",
+            "nro": "S/N",
+            "xBairro": "PARQUE INDUSTRIAL",
+            "cMun": "5201405",
+            "xMun": "APARECIDA DE GOIANIA",
+            "UF": "GO",
+            "CEP": "74993530",
+            "cPais": "1058",
+            "xPais": "BRASIL"
+          },
+          "IE": "104363185",
+          "CRT": "3"
+        },
+        "dest": {
+          "CNPJ": "03557504000103",
+          "xNome": "A. CARVALHO COMPONENTES ELETRONICOS LTDA",
+          "enderDest": {
+            "xLgr": "AVENIDA DANIEL DE LA TOUCHE",
+            "nro": "002004",
+            "xBairro": "BELA VISTA",
+            "cMun": "2111300",
+            "xMun": "SAO LUIS",
+            "UF": "MA",
+            "CEP": "65074115",
+            "cPais": "1058",
+            "xPais": "BRASIL",
+            "fone": "9833124110"
+          },
+          "indIEDest": "1",
+          "IE": "121738060",
+          "email": "arrudacohama@yahoo.com.br"
+        },
+        "det": [
+          {
+            "$": {
+              "nItem": "1"
+            },
+            "prod": {
+              "cProd": "1055009002",
+              "cEAN": "7893946420994",
+              "xProd": "FITA DUPLA FACE ACRILICA 09MMX02M VONDER",
+              "NCM": "35061090",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "3.59",
+              "vProd": "35.90",
+              "cEANTrib": "7893946420994",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "3.59",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "0",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "35.90",
+                  "pICMS": "12.00",
+                  "vICMS": "4.31"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "99",
+                  "vBC": "0.00",
+                  "pIPI": "0.00",
+                  "vIPI": "0.00"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "31.59",
+                  "pPIS": "1.65",
+                  "vPIS": "0.52"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "31.59",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "2.40"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "2"
+            },
+            "prod": {
+              "cProd": "1055012002",
+              "cEAN": "7893946421014",
+              "xProd": "FITA DUPLA FACE ACRILICA 12MMX02M VONDER",
+              "NCM": "35061090",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "4.87",
+              "vProd": "48.70",
+              "cEANTrib": "7893946421014",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "4.87",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "0",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "48.70",
+                  "pICMS": "12.00",
+                  "vICMS": "5.84"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "99",
+                  "vBC": "0.00",
+                  "pIPI": "0.00",
+                  "vIPI": "0.00"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "42.86",
+                  "pPIS": "1.65",
+                  "vPIS": "0.71"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "42.86",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "3.26"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "3"
+            },
+            "prod": {
+              "cProd": "1055012020",
+              "cEAN": "7893946421021",
+              "xProd": "FITA DUPLA FACE ACRILICA 12MMX20M VONDER",
+              "NCM": "35061090",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "30.64",
+              "vProd": "153.20",
+              "cEANTrib": "7893946421021",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "30.64",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "0",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "153.20",
+                  "pICMS": "12.00",
+                  "vICMS": "18.38"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "99",
+                  "vBC": "0.00",
+                  "pIPI": "0.00",
+                  "vIPI": "0.00"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "134.82",
+                  "pPIS": "1.65",
+                  "vPIS": "2.22"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "134.82",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "10.25"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "4"
+            },
+            "prod": {
+              "cProd": "1055019002",
+              "cEAN": "7893946421038",
+              "xProd": "FITA DUPLA FACE ACRILICA 19MMX02M VONDER",
+              "NCM": "35061090",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "7.72",
+              "vProd": "38.60",
+              "cEANTrib": "7893946421038",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "7.72",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "0",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "38.60",
+                  "pICMS": "12.00",
+                  "vICMS": "4.63"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "99",
+                  "vBC": "0.00",
+                  "pIPI": "0.00",
+                  "vIPI": "0.00"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "33.97",
+                  "pPIS": "1.65",
+                  "vPIS": "0.56"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "33.97",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "2.58"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "5"
+            },
+            "prod": {
+              "cProd": "1137190571",
+              "cEAN": "SEM GTIN",
+              "xProd": "FITA ISOL 19MMX05M PRETA VONDER PLUS",
+              "NCM": "39191020",
+              "CEST": "1000900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "1.26",
+              "vProd": "12.60",
+              "cEANTrib": "SEM GTIN",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "1.26",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "12.60",
+                  "pICMS": "4.00",
+                  "vICMS": "0.50"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "12.60",
+                  "pIPI": "15.00",
+                  "vIPI": "1.89"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "12.10",
+                  "pPIS": "1.65",
+                  "vPIS": "0.20"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "12.10",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "0.92"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "6"
+            },
+            "prod": {
+              "cProd": "1137191001",
+              "cEAN": "SEM GTIN",
+              "xProd": "FITA ISOL 19MMX10M AMARELA VONDER PLUS",
+              "NCM": "39191020",
+              "CEST": "1000900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "2.18",
+              "vProd": "21.80",
+              "cEANTrib": "SEM GTIN",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "2.18",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "21.80",
+                  "pICMS": "4.00",
+                  "vICMS": "0.87"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "21.80",
+                  "pIPI": "15.00",
+                  "vIPI": "3.27"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "20.93",
+                  "pPIS": "1.65",
+                  "vPIS": "0.35"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "20.93",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.59"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "7"
+            },
+            "prod": {
+              "cProd": "1137191011",
+              "cEAN": "SEM GTIN",
+              "xProd": "FITA ISOL 19MMX10M AZUL VONDER PLUS",
+              "NCM": "39191020",
+              "CEST": "1000900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "2.18",
+              "vProd": "21.80",
+              "cEANTrib": "SEM GTIN",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "2.18",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "21.80",
+                  "pICMS": "4.00",
+                  "vICMS": "0.87"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "21.80",
+                  "pIPI": "15.00",
+                  "vIPI": "3.27"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "20.93",
+                  "pPIS": "1.65",
+                  "vPIS": "0.35"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "20.93",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.59"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "8"
+            },
+            "prod": {
+              "cProd": "1137191021",
+              "cEAN": "SEM GTIN",
+              "xProd": "FITA ISOL 19MMX10M BRANCA VONDER PLUS",
+              "NCM": "39191020",
+              "CEST": "1000900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "2.18",
+              "vProd": "21.80",
+              "cEANTrib": "SEM GTIN",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "2.18",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "21.80",
+                  "pICMS": "4.00",
+                  "vICMS": "0.87"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "21.80",
+                  "pIPI": "15.00",
+                  "vIPI": "3.27"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "20.93",
+                  "pPIS": "1.65",
+                  "vPIS": "0.35"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "20.93",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.59"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "9"
+            },
+            "prod": {
+              "cProd": "1137191071",
+              "cEAN": "SEM GTIN",
+              "xProd": "FITA ISOL 19MMX10M PRETA VONDER PLUS",
+              "NCM": "39191020",
+              "CEST": "1000900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "2.18",
+              "vProd": "21.80",
+              "cEANTrib": "SEM GTIN",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "2.18",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "21.80",
+                  "pICMS": "4.00",
+                  "vICMS": "0.87"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "21.80",
+                  "pIPI": "15.00",
+                  "vIPI": "3.27"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "20.93",
+                  "pPIS": "1.65",
+                  "vPIS": "0.35"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "20.93",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.59"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "10"
+            },
+            "prod": {
+              "cProd": "1137191081",
+              "cEAN": "SEM GTIN",
+              "xProd": "FITA ISOL 19MMX10M VERDE VONDER PLUS",
+              "NCM": "39191020",
+              "CEST": "1000900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "2.18",
+              "vProd": "21.80",
+              "cEANTrib": "SEM GTIN",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "2.18",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "21.80",
+                  "pICMS": "4.00",
+                  "vICMS": "0.87"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "21.80",
+                  "pIPI": "15.00",
+                  "vIPI": "3.27"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "20.93",
+                  "pPIS": "1.65",
+                  "vPIS": "0.35"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "20.93",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.59"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "11"
+            },
+            "prod": {
+              "cProd": "1137192071",
+              "cEAN": "SEM GTIN",
+              "xProd": "FITA ISOL 19MMX20M PRETA VONDER PLUS",
+              "NCM": "39191020",
+              "CEST": "1000900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "4.08",
+              "vProd": "40.80",
+              "cEANTrib": "SEM GTIN",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "4.08",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "40.80",
+                  "pICMS": "4.00",
+                  "vICMS": "1.63"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "40.80",
+                  "pIPI": "15.00",
+                  "vIPI": "6.12"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "39.17",
+                  "pPIS": "1.65",
+                  "vPIS": "0.65"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "39.17",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "2.98"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "12"
+            },
+            "prod": {
+              "cProd": "1140190200",
+              "cEAN": "7893946109615",
+              "xProd": "FITA AUTO FUSAO 19MM X 2M VONDER",
+              "NCM": "40059190",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "5.49",
+              "vProd": "27.45",
+              "cEANTrib": "7893946109615",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "5.49",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "27.45",
+                  "pICMS": "4.00",
+                  "vICMS": "1.10"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "27.45",
+                  "pIPI": "5.00",
+                  "vIPI": "1.37"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "26.35",
+                  "pPIS": "1.65",
+                  "vPIS": "0.43"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "26.35",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "2.00"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "13"
+            },
+            "prod": {
+              "cProd": "1140190500",
+              "cEAN": "7893946109622",
+              "xProd": "FITA AUTO FUSAO 19MM X 5M VONDER",
+              "NCM": "40059190",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "10.98",
+              "vProd": "54.90",
+              "cEANTrib": "7893946109622",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "10.98",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "54.90",
+                  "pICMS": "4.00",
+                  "vICMS": "2.20"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "54.90",
+                  "pIPI": "5.00",
+                  "vIPI": "2.75"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "52.70",
+                  "pPIS": "1.65",
+                  "vPIS": "0.87"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "52.70",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "4.01"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "14"
+            },
+            "prod": {
+              "cProd": "1240412160",
+              "cEAN": "7893946510909",
+              "xProd": "DISCO CORTE 115,0X1,6X22,23 DCV VONDER",
+              "NCM": "68042211",
+              "CEST": "0800300",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "2.11",
+              "vProd": "21.10",
+              "cEANTrib": "7893946510909",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "2.11",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "21.10",
+                  "pICMS": "4.00",
+                  "vICMS": "0.84"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPINT": {
+                  "CST": "51"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "20.26",
+                  "pPIS": "1.65",
+                  "vPIS": "0.33"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "20.26",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.54"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "15"
+            },
+            "prod": {
+              "cProd": "1240700160",
+              "cEAN": "7893946510916",
+              "xProd": "DISCO CORTE 180,0X1,6X22,23 DCV VONDER",
+              "NCM": "68042211",
+              "CEST": "0800300",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "4.57",
+              "vProd": "45.70",
+              "cEANTrib": "7893946510916",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "4.57",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "45.70",
+                  "pICMS": "4.00",
+                  "vICMS": "1.83"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPINT": {
+                  "CST": "51"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "43.87",
+                  "pPIS": "1.65",
+                  "vPIS": "0.72"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "43.87",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "3.33"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "16"
+            },
+            "prod": {
+              "cProd": "1662020000",
+              "cEAN": "7893946601119",
+              "xProd": "ADESIVO INSTANTANEO  20G VONDER",
+              "NCM": "35061010",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "40.0000",
+              "vUnCom": "4.58",
+              "vProd": "183.20",
+              "cEANTrib": "7893946601119",
+              "uTrib": "PC",
+              "qTrib": "40.0000",
+              "vUnTrib": "4.58",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "183.20",
+                  "pICMS": "4.00",
+                  "vICMS": "7.33"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPINT": {
+                  "CST": "51"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "175.87",
+                  "pPIS": "1.65",
+                  "vPIS": "2.90"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "175.87",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "13.37"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "17"
+            },
+            "prod": {
+              "cProd": "1662100000",
+              "cEAN": "7893946601126",
+              "xProd": "ADESIVO INSTANTANEO 100G VONDER",
+              "NCM": "35061010",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "17.02",
+              "vProd": "170.20",
+              "cEANTrib": "7893946601126",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "17.02",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "170.20",
+                  "pICMS": "4.00",
+                  "vICMS": "6.81"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPINT": {
+                  "CST": "51"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "163.39",
+                  "pPIS": "1.65",
+                  "vPIS": "2.70"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "163.39",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "12.42"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "18"
+            },
+            "prod": {
+              "cProd": "2898210010",
+              "cEAN": "7893946372255",
+              "xProd": "PROTETOR CABOS ESPIRAL 10MM PRETO VONDER",
+              "NCM": "39269090",
+              "CEST": "1002000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "3.13",
+              "vProd": "31.30",
+              "cEANTrib": "7893946372255",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "3.13",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "31.30",
+                  "pICMS": "4.00",
+                  "vICMS": "1.25"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "31.30",
+                  "pIPI": "15.00",
+                  "vIPI": "4.70"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "30.05",
+                  "pPIS": "1.65",
+                  "vPIS": "0.50"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "30.05",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "2.28"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "19"
+            },
+            "prod": {
+              "cProd": "2898210012",
+              "cEAN": "7893946372262",
+              "xProd": "PROTETOR CABOS ESPIRAL 12MM PRETO VONDER",
+              "NCM": "39269090",
+              "CEST": "1002000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "3.64",
+              "vProd": "36.40",
+              "cEANTrib": "7893946372262",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "3.64",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "36.40",
+                  "pICMS": "4.00",
+                  "vICMS": "1.46"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "36.40",
+                  "pIPI": "15.00",
+                  "vIPI": "5.46"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "34.94",
+                  "pPIS": "1.65",
+                  "vPIS": "0.58"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "34.94",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "2.66"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "20"
+            },
+            "prod": {
+              "cProd": "2898210014",
+              "cEAN": "7893946372279",
+              "xProd": "PROTETOR CABOS ESPIRAL 14MM PRETO VONDER",
+              "NCM": "39269090",
+              "CEST": "1002000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "4.64",
+              "vProd": "46.40",
+              "cEANTrib": "7893946372279",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "4.64",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "46.40",
+                  "pICMS": "4.00",
+                  "vICMS": "1.86"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "46.40",
+                  "pIPI": "15.00",
+                  "vIPI": "6.96"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "44.54",
+                  "pPIS": "1.65",
+                  "vPIS": "0.73"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "44.54",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "3.39"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "21"
+            },
+            "prod": {
+              "cProd": "2898210016",
+              "cEAN": "7893946372286",
+              "xProd": "PROTETOR CABOS ESPIRAL 16MM PRETO VONDER",
+              "NCM": "39269090",
+              "CEST": "1002000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "5.19",
+              "vProd": "51.90",
+              "cEANTrib": "7893946372286",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "5.19",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "51.90",
+                  "pICMS": "4.00",
+                  "vICMS": "2.08"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "51.90",
+                  "pIPI": "15.00",
+                  "vIPI": "7.79"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "49.82",
+                  "pPIS": "1.65",
+                  "vPIS": "0.82"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "49.82",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "3.79"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "22"
+            },
+            "prod": {
+              "cProd": "2898210018",
+              "cEAN": "7893946372293",
+              "xProd": "PROTETOR CABOS ESPIRAL 18MM PRETO VONDER",
+              "NCM": "39269090",
+              "CEST": "1002000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "7.10",
+              "vProd": "71.00",
+              "cEANTrib": "7893946372293",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "7.10",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "71.00",
+                  "pICMS": "4.00",
+                  "vICMS": "2.84"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "71.00",
+                  "pIPI": "15.00",
+                  "vIPI": "10.65"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "68.16",
+                  "pPIS": "1.65",
+                  "vPIS": "1.12"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "68.16",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "5.18"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "23"
+            },
+            "prod": {
+              "cProd": "2898210020",
+              "cEAN": "7893946372309",
+              "xProd": "PROTETOR CABOS ESPIRAL 20MM PRETO VONDER",
+              "NCM": "39269090",
+              "CEST": "1002000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "7.65",
+              "vProd": "76.50",
+              "cEANTrib": "7893946372309",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "7.65",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "76.50",
+                  "pICMS": "4.00",
+                  "vICMS": "3.06"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "76.50",
+                  "pIPI": "15.00",
+                  "vIPI": "11.48"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "73.44",
+                  "pPIS": "1.65",
+                  "vPIS": "1.21"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "73.44",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "5.58"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "24"
+            },
+            "prod": {
+              "cProd": "3085250000",
+              "cEAN": "7893946059842",
+              "xProd": "TESOURA USO GERAL 25CM VONDER",
+              "NCM": "82130000",
+              "CEST": "0801800",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "12.0000",
+              "vUnCom": "11.85",
+              "vProd": "142.20",
+              "cEANTrib": "7893946059842",
+              "uTrib": "PC",
+              "qTrib": "12.0000",
+              "vUnTrib": "11.85",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "142.20",
+                  "pICMS": "4.00",
+                  "vICMS": "5.69"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "142.20",
+                  "pIPI": "7.80",
+                  "vIPI": "11.09"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "136.51",
+                  "pPIS": "1.65",
+                  "vPIS": "2.25"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "136.51",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "10.37"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "25"
+            },
+            "prod": {
+              "cProd": "3538028000",
+              "cEAN": "7893946565961",
+              "xProd": "BITS/PONTEIRA CRV C/28PC ENC 1/4 VONDER",
+              "NCM": "82079000",
+              "CEST": "0801300",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "JG",
+              "qCom": "6.0000",
+              "vUnCom": "30.18",
+              "vProd": "181.08",
+              "cEANTrib": "7893946565961",
+              "uTrib": "JG",
+              "qTrib": "6.0000",
+              "vUnTrib": "30.18",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "181.08",
+                  "pICMS": "4.00",
+                  "vICMS": "7.24"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "181.08",
+                  "pIPI": "5.20",
+                  "vIPI": "9.42"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "173.84",
+                  "pPIS": "1.65",
+                  "vPIS": "2.87"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "173.84",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "13.21"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "26"
+            },
+            "prod": {
+              "cProd": "3538200000",
+              "cEAN": "7893946103606",
+              "xProd": "BITS/PONTEIRAS CRV C/20PC ENC1/4\"VONDER",
+              "NCM": "82079000",
+              "CEST": "0801300",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "JG",
+              "qCom": "6.0000",
+              "vUnCom": "30.26",
+              "vProd": "181.56",
+              "cEANTrib": "7893946103606",
+              "uTrib": "JG",
+              "qTrib": "6.0000",
+              "vUnTrib": "30.26",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "181.56",
+                  "pICMS": "4.00",
+                  "vICMS": "7.26"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "181.56",
+                  "pIPI": "5.20",
+                  "vIPI": "9.44"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "174.30",
+                  "pPIS": "1.65",
+                  "vPIS": "2.88"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "174.30",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "13.25"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "27"
+            },
+            "prod": {
+              "cProd": "3539384031",
+              "cEAN": "7893946402174",
+              "xProd": "BITS/PONTEIRAS CRV C/31PCS BP384 954",
+              "NCM": "82079000",
+              "CEST": "0801300",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "JG",
+              "qCom": "8.0000",
+              "vUnCom": "21.91",
+              "vProd": "175.28",
+              "cEANTrib": "7893946402174",
+              "uTrib": "JG",
+              "qTrib": "8.0000",
+              "vUnTrib": "21.91",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "175.28",
+                  "pICMS": "4.00",
+                  "vICMS": "7.01"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "175.28",
+                  "pIPI": "5.20",
+                  "vIPI": "9.11"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "168.27",
+                  "pPIS": "1.65",
+                  "vPIS": "2.78"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "168.27",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "12.79"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "28"
+            },
+            "prod": {
+              "cProd": "3570009000",
+              "cEAN": "7893946103613",
+              "xProd": "CH HEXALOBULAR PRECISAO 9PC T04-T20 VOND",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "JG",
+              "qCom": "5.0000",
+              "vUnCom": "35.00",
+              "vProd": "175.00",
+              "cEANTrib": "7893946103613",
+              "uTrib": "JG",
+              "qTrib": "5.0000",
+              "vUnTrib": "35.00",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "175.00",
+                  "pICMS": "4.00",
+                  "vICMS": "7.00"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "175.00",
+                  "pIPI": "5.20",
+                  "vIPI": "9.10"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "168.00",
+                  "pPIS": "1.65",
+                  "vPIS": "2.77"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "168.00",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "12.77"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "29"
+            },
+            "prod": {
+              "cProd": "3571061224",
+              "cEAN": "7893946632618",
+              "xProd": "TESTADOR AUTOMOTIVO DE TENSAO VONDER",
+              "NCM": "90303390",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "12.0000",
+              "vUnCom": "16.03",
+              "vProd": "192.36",
+              "cEANTrib": "7893946632618",
+              "uTrib": "PC",
+              "qTrib": "12.0000",
+              "vUnTrib": "16.03",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "192.36",
+                  "pICMS": "4.00",
+                  "vICMS": "7.69"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "192.36",
+                  "pIPI": "3.25",
+                  "vIPI": "6.25"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "184.67",
+                  "pPIS": "1.65",
+                  "vPIS": "3.05"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "184.67",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "14.03"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "30"
+            },
+            "prod": {
+              "cProd": "3571091520",
+              "cEAN": "7893946011970",
+              "xProd": "CH TESTE CARTELA VONDER",
+              "NCM": "90303390",
+              "CEST": "2111900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "10.0000",
+              "vUnCom": "4.69",
+              "vProd": "46.90",
+              "cEANTrib": "7893946011970",
+              "uTrib": "PC",
+              "qTrib": "10.0000",
+              "vUnTrib": "4.69",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "46.90",
+                  "pICMS": "4.00",
+                  "vICMS": "1.88"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "46.90",
+                  "pIPI": "3.25",
+                  "vIPI": "1.52"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "45.02",
+                  "pPIS": "1.65",
+                  "vPIS": "0.74"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "45.02",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "3.42"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "31"
+            },
+            "prod": {
+              "cProd": "3573010050",
+              "cEAN": "7893946084257",
+              "xProd": "CH HEXALOBULAR 9PC T10-T50 VTX4 CRV VOND",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "JG",
+              "qCom": "6.0000",
+              "vUnCom": "27.00",
+              "vProd": "162.00",
+              "cEANTrib": "7893946084257",
+              "uTrib": "JG",
+              "qTrib": "6.0000",
+              "vUnTrib": "27.00",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "162.00",
+                  "pICMS": "4.00",
+                  "vICMS": "6.48"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "162.00",
+                  "pIPI": "5.20",
+                  "vIPI": "8.42"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "155.52",
+                  "pPIS": "1.65",
+                  "vPIS": "2.57"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "155.52",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "11.82"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "32"
+            },
+            "prod": {
+              "cProd": "3573015008",
+              "cEAN": "7893946554859",
+              "xProd": "CH ALLEN JG 1,5A08MM ARGOLA 8PC AC 954",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "JG",
+              "qCom": "6.0000",
+              "vUnCom": "8.56",
+              "vProd": "51.36",
+              "cEANTrib": "7893946554859",
+              "uTrib": "JG",
+              "qTrib": "6.0000",
+              "vUnTrib": "8.56",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "51.36",
+                  "pICMS": "4.00",
+                  "vICMS": "2.05"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "51.36",
+                  "pIPI": "5.20",
+                  "vIPI": "2.67"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "49.31",
+                  "pPIS": "1.65",
+                  "vPIS": "0.81"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "49.31",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "3.75"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "33"
+            },
+            "prod": {
+              "cProd": "3573020101",
+              "cEAN": "7893946655631",
+              "xProd": "CH ALLEN  2,0MM EMB C/1PC VONDER",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "20.0000",
+              "vUnCom": "0.85",
+              "vProd": "17.00",
+              "cEANTrib": "7893946655631",
+              "uTrib": "PC",
+              "qTrib": "20.0000",
+              "vUnTrib": "0.85",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "17.00",
+                  "pICMS": "4.00",
+                  "vICMS": "0.68"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "17.00",
+                  "pIPI": "5.20",
+                  "vIPI": "0.88"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "16.32",
+                  "pPIS": "1.65",
+                  "vPIS": "0.27"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "16.32",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.24"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "34"
+            },
+            "prod": {
+              "cProd": "3573025101",
+              "cEAN": "7893946655648",
+              "xProd": "CH ALLEN  2,5MM EMB C/1PC VONDER",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "20.0000",
+              "vUnCom": "0.85",
+              "vProd": "17.00",
+              "cEANTrib": "7893946655648",
+              "uTrib": "PC",
+              "qTrib": "20.0000",
+              "vUnTrib": "0.85",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "17.00",
+                  "pICMS": "4.00",
+                  "vICMS": "0.68"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "17.00",
+                  "pIPI": "5.20",
+                  "vIPI": "0.88"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "16.32",
+                  "pPIS": "1.65",
+                  "vPIS": "0.27"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "16.32",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.24"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "35"
+            },
+            "prod": {
+              "cProd": "3573030101",
+              "cEAN": "7893946655655",
+              "xProd": "CH ALLEN  3,0MM EMB C/1PC VONDER",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "20.0000",
+              "vUnCom": "1.00",
+              "vProd": "20.00",
+              "cEANTrib": "7893946655655",
+              "uTrib": "PC",
+              "qTrib": "20.0000",
+              "vUnTrib": "1.00",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "20.00",
+                  "pICMS": "4.00",
+                  "vICMS": "0.80"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "20.00",
+                  "pIPI": "5.20",
+                  "vIPI": "1.04"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "19.20",
+                  "pPIS": "1.65",
+                  "vPIS": "0.32"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "19.20",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.46"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "36"
+            },
+            "prod": {
+              "cProd": "3573040101",
+              "cEAN": "7893946655662",
+              "xProd": "CH ALLEN  4,0MM EMB C/1PC VONDER",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "20.0000",
+              "vUnCom": "1.37",
+              "vProd": "27.40",
+              "cEANTrib": "7893946655662",
+              "uTrib": "PC",
+              "qTrib": "20.0000",
+              "vUnTrib": "1.37",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "27.40",
+                  "pICMS": "4.00",
+                  "vICMS": "1.10"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "27.40",
+                  "pIPI": "5.20",
+                  "vIPI": "1.42"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "26.30",
+                  "pPIS": "1.65",
+                  "vPIS": "0.43"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "26.30",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "2.00"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "37"
+            },
+            "prod": {
+              "cProd": "3573050101",
+              "cEAN": "7893946655679",
+              "xProd": "CH ALLEN  5,0MM EMB C/1PC VONDER",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "20.0000",
+              "vUnCom": "1.78",
+              "vProd": "35.60",
+              "cEANTrib": "7893946655679",
+              "uTrib": "PC",
+              "qTrib": "20.0000",
+              "vUnTrib": "1.78",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "35.60",
+                  "pICMS": "4.00",
+                  "vICMS": "1.42"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "35.60",
+                  "pIPI": "5.20",
+                  "vIPI": "1.85"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "34.18",
+                  "pPIS": "1.65",
+                  "vPIS": "0.56"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "34.18",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "2.60"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "38"
+            },
+            "prod": {
+              "cProd": "3573060101",
+              "cEAN": "7893946655686",
+              "xProd": "CH ALLEN  6,0MM EMB C/1PC VONDER",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "20.0000",
+              "vUnCom": "2.49",
+              "vProd": "49.80",
+              "cEANTrib": "7893946655686",
+              "uTrib": "PC",
+              "qTrib": "20.0000",
+              "vUnTrib": "2.49",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "49.80",
+                  "pICMS": "4.00",
+                  "vICMS": "1.99"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "49.80",
+                  "pIPI": "5.20",
+                  "vIPI": "2.59"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "47.81",
+                  "pPIS": "1.65",
+                  "vPIS": "0.79"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "47.81",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "3.63"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "39"
+            },
+            "prod": {
+              "cProd": "3573105000",
+              "cEAN": "7893946377205",
+              "xProd": "CH HEXALOBULAR 9PC T10-T50 LONGA CRV VD",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "JG",
+              "qCom": "5.0000",
+              "vUnCom": "37.89",
+              "vProd": "189.45",
+              "cEANTrib": "7893946377205",
+              "uTrib": "JG",
+              "qTrib": "5.0000",
+              "vUnTrib": "37.89",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "189.45",
+                  "pICMS": "4.00",
+                  "vICMS": "7.58"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "189.45",
+                  "pIPI": "5.20",
+                  "vIPI": "9.85"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "181.87",
+                  "pPIS": "1.65",
+                  "vPIS": "3.00"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "181.87",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "13.82"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "40"
+            },
+            "prod": {
+              "cProd": "3573109040",
+              "cEAN": "7893946084240",
+              "xProd": "CH HEXALOBULAR 8PC T09-T40 VTX2 CRV VOND",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "JG",
+              "qCom": "6.0000",
+              "vUnCom": "18.64",
+              "vProd": "111.84",
+              "cEANTrib": "7893946084240",
+              "uTrib": "JG",
+              "qTrib": "6.0000",
+              "vUnTrib": "18.64",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "111.84",
+                  "pICMS": "4.00",
+                  "vICMS": "4.47"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "111.84",
+                  "pIPI": "5.20",
+                  "vIPI": "5.82"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "107.37",
+                  "pPIS": "1.65",
+                  "vPIS": "1.77"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "107.37",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "8.16"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "41"
+            },
+            "prod": {
+              "cProd": "3573150100",
+              "cEAN": "7893946056995",
+              "xProd": "CH ALLEN JG 1,5A10MM 9PC LONGA CRV VD",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "JG",
+              "qCom": "6.0000",
+              "vUnCom": "29.37",
+              "vProd": "176.22",
+              "cEANTrib": "7893946056995",
+              "uTrib": "JG",
+              "qTrib": "6.0000",
+              "vUnTrib": "29.37",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "176.22",
+                  "pICMS": "4.00",
+                  "vICMS": "7.05"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "176.22",
+                  "pIPI": "5.20",
+                  "vIPI": "9.16"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "169.17",
+                  "pPIS": "1.65",
+                  "vPIS": "2.79"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "169.17",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "12.86"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "42"
+            },
+            "prod": {
+              "cProd": "3573150800",
+              "cEAN": "7893946056988",
+              "xProd": "CH ALLEN JG 1,5A08MM ARGOLA 8PC CRV VD",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "JG",
+              "qCom": "6.0000",
+              "vUnCom": "14.85",
+              "vProd": "89.10",
+              "cEANTrib": "7893946056988",
+              "uTrib": "JG",
+              "qTrib": "6.0000",
+              "vUnTrib": "14.85",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "89.10",
+                  "pICMS": "4.00",
+                  "vICMS": "3.56"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "89.10",
+                  "pIPI": "5.20",
+                  "vIPI": "4.63"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "85.54",
+                  "pPIS": "1.65",
+                  "vPIS": "1.41"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "85.54",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "6.50"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "43"
+            },
+            "prod": {
+              "cProd": "3593003000",
+              "cEAN": "7893946582166",
+              "xProd": "ESPATULAS P/ELETRONICOS JG C/3PCS VONDER",
+              "NCM": "82055900",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "JG",
+              "qCom": "5.0000",
+              "vUnCom": "30.06",
+              "vProd": "150.30",
+              "cEANTrib": "7893946582166",
+              "uTrib": "JG",
+              "qTrib": "5.0000",
+              "vUnTrib": "30.06",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "150.30",
+                  "pICMS": "4.00",
+                  "vICMS": "6.01"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "150.30",
+                  "pIPI": "5.20",
+                  "vIPI": "7.82"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "144.29",
+                  "pPIS": "1.65",
+                  "vPIS": "2.38"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "144.29",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "10.97"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "44"
+            },
+            "prod": {
+              "cProd": "3662000008",
+              "cEAN": "7893946137137",
+              "xProd": "ALIC UNIVERSAL 8\" CRV 1.000 VONDER",
+              "NCM": "82032010",
+              "CEST": "0800800",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "6.0000",
+              "vUnCom": "33.16",
+              "vProd": "198.96",
+              "cEANTrib": "7893946137137",
+              "uTrib": "PC",
+              "qTrib": "6.0000",
+              "vUnTrib": "33.16",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "198.96",
+                  "pICMS": "4.00",
+                  "vICMS": "7.96"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "198.96",
+                  "pIPI": "5.20",
+                  "vIPI": "10.35"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "191.00",
+                  "pPIS": "1.65",
+                  "vPIS": "3.15"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "191.00",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "14.52"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "45"
+            },
+            "prod": {
+              "cProd": "3662041151",
+              "cEAN": "7893946160135",
+              "xProd": "ALIC CORTE DIAGONAL 4.1/2 1000V VONDER",
+              "NCM": "82032010",
+              "CEST": "0800800",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "6.0000",
+              "vUnCom": "20.00",
+              "vProd": "120.00",
+              "cEANTrib": "7893946160135",
+              "uTrib": "PC",
+              "qTrib": "6.0000",
+              "vUnTrib": "20.00",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "120.00",
+                  "pICMS": "4.00",
+                  "vICMS": "4.80"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "120.00",
+                  "pIPI": "5.20",
+                  "vIPI": "6.24"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "115.20",
+                  "pPIS": "1.65",
+                  "vPIS": "1.90"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "115.20",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "8.76"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "46"
+            },
+            "prod": {
+              "cProd": "3662041152",
+              "cEAN": "7893946160203",
+              "xProd": "ALIC BICO M.CANA RETO 4.1/2\" 1000V VONDE",
+              "NCM": "82032010",
+              "CEST": "0800800",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "6.0000",
+              "vUnCom": "19.78",
+              "vProd": "118.68",
+              "cEANTrib": "7893946160203",
+              "uTrib": "PC",
+              "qTrib": "6.0000",
+              "vUnTrib": "19.78",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "118.68",
+                  "pICMS": "4.00",
+                  "vICMS": "4.75"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "118.68",
+                  "pIPI": "5.20",
+                  "vIPI": "6.17"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "113.93",
+                  "pPIS": "1.65",
+                  "vPIS": "1.88"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "113.93",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "8.66"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "47"
+            },
+            "prod": {
+              "cProd": "3662061503",
+              "cEAN": "7893946160142",
+              "xProd": "ALIC CORTE DIAGONAL 6\" 1000V VONDER",
+              "NCM": "82032010",
+              "CEST": "0800800",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "6.0000",
+              "vUnCom": "26.12",
+              "vProd": "156.72",
+              "cEANTrib": "7893946160142",
+              "uTrib": "PC",
+              "qTrib": "6.0000",
+              "vUnTrib": "26.12",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "156.72",
+                  "pICMS": "4.00",
+                  "vICMS": "6.27"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "156.72",
+                  "pIPI": "5.20",
+                  "vIPI": "8.15"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "150.45",
+                  "pPIS": "1.65",
+                  "vPIS": "2.48"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "150.45",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "11.43"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "48"
+            },
+            "prod": {
+              "cProd": "3662061505",
+              "cEAN": "7893946160104",
+              "xProd": "ALIC BICO M.CANA RETO 6\" 1000V VONDER",
+              "NCM": "82032010",
+              "CEST": "0800800",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "6.0000",
+              "vUnCom": "24.36",
+              "vProd": "146.16",
+              "cEANTrib": "7893946160104",
+              "uTrib": "PC",
+              "qTrib": "6.0000",
+              "vUnTrib": "24.36",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "146.16",
+                  "pICMS": "4.00",
+                  "vICMS": "5.85"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "146.16",
+                  "pIPI": "5.20",
+                  "vIPI": "7.60"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "140.31",
+                  "pPIS": "1.65",
+                  "vPIS": "2.32"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "140.31",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "10.66"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "49"
+            },
+            "prod": {
+              "cProd": "3662100008",
+              "cEAN": "7893946357962",
+              "xProd": "ALIC UNIVERSAL 8\" CRV ELETRICISTA 1000V",
+              "NCM": "82032010",
+              "CEST": "0800800",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "6.0000",
+              "vUnCom": "38.07",
+              "vProd": "228.42",
+              "cEANTrib": "7893946357962",
+              "uTrib": "PC",
+              "qTrib": "6.0000",
+              "vUnTrib": "38.07",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "228.42",
+                  "pICMS": "4.00",
+                  "vICMS": "9.14"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "228.42",
+                  "pIPI": "5.20",
+                  "vIPI": "11.88"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "219.28",
+                  "pPIS": "1.65",
+                  "vPIS": "3.62"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "219.28",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "16.67"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "50"
+            },
+            "prod": {
+              "cProd": "3669009000",
+              "cEAN": "7893946134914",
+              "xProd": "CH HEXALOBULAR T09 RETA C/CABO VONDER",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "5.68",
+              "vProd": "28.40",
+              "cEANTrib": "7893946134914",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "5.68",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "28.40",
+                  "pICMS": "4.00",
+                  "vICMS": "1.14"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "28.40",
+                  "pIPI": "5.20",
+                  "vIPI": "1.48"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "27.26",
+                  "pPIS": "1.65",
+                  "vPIS": "0.45"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "27.26",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "2.07"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "51"
+            },
+            "prod": {
+              "cProd": "3669010000",
+              "cEAN": "7893946134921",
+              "xProd": "CH HEXALOBULAR T10 RETA C/CABO VONDER",
+              "NCM": "82054000",
+              "CEST": "0801000",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "5.68",
+              "vProd": "28.40",
+              "cEANTrib": "7893946134921",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "5.68",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "28.40",
+                  "pICMS": "4.00",
+                  "vICMS": "1.14"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "28.40",
+                  "pIPI": "5.20",
+                  "vIPI": "1.48"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "27.26",
+                  "pPIS": "1.65",
+                  "vPIS": "0.45"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "27.26",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "2.07"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "52"
+            },
+            "prod": {
+              "cProd": "3735060000",
+              "cEAN": "7893946376666",
+              "xProd": "CH COMBINADA 06MM CRV CROMADA ENC VONDER",
+              "NCM": "82041100",
+              "CEST": "0800900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "3.94",
+              "vProd": "19.70",
+              "cEANTrib": "7893946376666",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "3.94",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "19.70",
+                  "pICMS": "4.00",
+                  "vICMS": "0.79"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "19.70",
+                  "pIPI": "5.20",
+                  "vIPI": "1.02"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "18.91",
+                  "pPIS": "1.65",
+                  "vPIS": "0.31"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "18.91",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.44"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "53"
+            },
+            "prod": {
+              "cProd": "3735070000",
+              "cEAN": "7893946376697",
+              "xProd": "CH COMBINADA 07MM CRV CROMADA ENC VONDER",
+              "NCM": "82041100",
+              "CEST": "0800900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "4.37",
+              "vProd": "21.85",
+              "cEANTrib": "7893946376697",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "4.37",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "21.85",
+                  "pICMS": "4.00",
+                  "vICMS": "0.87"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "21.85",
+                  "pIPI": "5.20",
+                  "vIPI": "1.14"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "20.98",
+                  "pPIS": "1.65",
+                  "vPIS": "0.35"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "20.98",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.59"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "54"
+            },
+            "prod": {
+              "cProd": "3735080000",
+              "cEAN": "7893946376703",
+              "xProd": "CH COMBINADA 08MM CRV CROMADA ENC VONDER",
+              "NCM": "82041100",
+              "CEST": "0800900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "4.50",
+              "vProd": "22.50",
+              "cEANTrib": "7893946376703",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "4.50",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "22.50",
+                  "pICMS": "4.00",
+                  "vICMS": "0.90"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "22.50",
+                  "pIPI": "5.20",
+                  "vIPI": "1.17"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "21.60",
+                  "pPIS": "1.65",
+                  "vPIS": "0.36"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "21.60",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.64"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "55"
+            },
+            "prod": {
+              "cProd": "3735090000",
+              "cEAN": "7893946376710",
+              "xProd": "CH COMBINADA 09MM CRV CROMADA ENC VONDER",
+              "NCM": "82041100",
+              "CEST": "0800900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "4.64",
+              "vProd": "23.20",
+              "cEANTrib": "7893946376710",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "4.64",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "23.20",
+                  "pICMS": "4.00",
+                  "vICMS": "0.93"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "23.20",
+                  "pIPI": "5.20",
+                  "vIPI": "1.21"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "22.27",
+                  "pPIS": "1.65",
+                  "vPIS": "0.37"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "22.27",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.69"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "56"
+            },
+            "prod": {
+              "cProd": "3735100000",
+              "cEAN": "7893946376727",
+              "xProd": "CH COMBINADA 10MM CRV CROMADA ENC VONDER",
+              "NCM": "82041100",
+              "CEST": "0800900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "4.76",
+              "vProd": "23.80",
+              "cEANTrib": "7893946376727",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "4.76",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "23.80",
+                  "pICMS": "4.00",
+                  "vICMS": "0.95"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "23.80",
+                  "pIPI": "5.20",
+                  "vIPI": "1.24"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "22.85",
+                  "pPIS": "1.65",
+                  "vPIS": "0.38"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "22.85",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.74"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "57"
+            },
+            "prod": {
+              "cProd": "3735110000",
+              "cEAN": "7893946376734",
+              "xProd": "CH COMBINADA 11MM CRV CROMADA ENC VONDER",
+              "NCM": "82041100",
+              "CEST": "0800900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "5.16",
+              "vProd": "25.80",
+              "cEANTrib": "7893946376734",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "5.16",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "25.80",
+                  "pICMS": "4.00",
+                  "vICMS": "1.03"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "25.80",
+                  "pIPI": "5.20",
+                  "vIPI": "1.34"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "24.77",
+                  "pPIS": "1.65",
+                  "vPIS": "0.41"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "24.77",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.88"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "58"
+            },
+            "prod": {
+              "cProd": "3868300003",
+              "cEAN": "7893946488604",
+              "xProd": "TRENA ACO (D)  3M X 12,5MM ECONOMICA VD",
+              "NCM": "90178010",
+              "CEST": "0802100",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "6.0000",
+              "vUnCom": "5.39",
+              "vProd": "32.34",
+              "cEANTrib": "7893946488604",
+              "uTrib": "PC",
+              "qTrib": "6.0000",
+              "vUnTrib": "5.39",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "32.34",
+                  "pICMS": "4.00",
+                  "vICMS": "1.29"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "32.34",
+                  "pIPI": "9.75",
+                  "vIPI": "3.15"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "31.05",
+                  "pPIS": "1.65",
+                  "vPIS": "0.51"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "31.05",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "2.36"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "59"
+            },
+            "prod": {
+              "cProd": "3868500005",
+              "cEAN": "7893946488611",
+              "xProd": "TRENA ACO (E)  5M X 19,0MM ECONOMICA VD",
+              "NCM": "90178010",
+              "CEST": "0802100",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "6.0000",
+              "vUnCom": "9.13",
+              "vProd": "54.78",
+              "cEANTrib": "7893946488611",
+              "uTrib": "PC",
+              "qTrib": "6.0000",
+              "vUnTrib": "9.13",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "54.78",
+                  "pICMS": "4.00",
+                  "vICMS": "2.19"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "54.78",
+                  "pIPI": "9.75",
+                  "vIPI": "5.34"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "52.59",
+                  "pPIS": "1.65",
+                  "vPIS": "0.87"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "52.59",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "4.00"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "60"
+            },
+            "prod": {
+              "cProd": "3868750075",
+              "cEAN": "7893946488628",
+              "xProd": "TRENA ACO (F)7,5M X 25,0MM ECONOMICA VD",
+              "NCM": "90178010",
+              "CEST": "0802100",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "6.0000",
+              "vUnCom": "16.65",
+              "vProd": "99.90",
+              "cEANTrib": "7893946488628",
+              "uTrib": "PC",
+              "qTrib": "6.0000",
+              "vUnTrib": "16.65",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "99.90",
+                  "pICMS": "4.00",
+                  "vICMS": "4.00"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "99.90",
+                  "pIPI": "9.75",
+                  "vIPI": "9.74"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "95.90",
+                  "pPIS": "1.65",
+                  "vPIS": "1.58"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "95.90",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "7.29"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "61"
+            },
+            "prod": {
+              "cProd": "3880006000",
+              "cEAN": "7893946088477",
+              "xProd": "MULTITESTE DIGITAL VONDER",
+              "NCM": "90303390",
+              "CEST": "2111900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "24.79",
+              "vProd": "123.95",
+              "cEANTrib": "7893946088477",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "24.79",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "123.95",
+                  "pICMS": "4.00",
+                  "vICMS": "4.96"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "123.95",
+                  "pIPI": "3.25",
+                  "vIPI": "4.03"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "118.99",
+                  "pPIS": "1.65",
+                  "vPIS": "1.96"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "118.99",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "9.04"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "62"
+            },
+            "prod": {
+              "cProd": "5165215300",
+              "cEAN": "7893946002763",
+              "xProd": "LUBRIFICANTE SPRAY 300ML/200G     VONDER",
+              "NCM": "38249941",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "12.0000",
+              "vUnCom": "8.13",
+              "vProd": "97.56",
+              "cEANTrib": "7893946002763",
+              "uTrib": "PC",
+              "qTrib": "12.0000",
+              "vUnTrib": "8.13",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "0",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "97.56",
+                  "pICMS": "12.00",
+                  "vICMS": "11.71"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "99",
+                  "vBC": "0.00",
+                  "pIPI": "0.00",
+                  "vIPI": "0.00"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "85.85",
+                  "pPIS": "1.65",
+                  "vPIS": "1.42"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "85.85",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "6.52"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "63"
+            },
+            "prod": {
+              "cProd": "5199025000",
+              "cEAN": "7893946039455",
+              "xProd": "GRAFITE EM PO 25G CARTELA         VONDER",
+              "NCM": "25041000",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "24.0000",
+              "vUnCom": "3.02",
+              "vProd": "72.48",
+              "cEANTrib": "7893946039455",
+              "uTrib": "PC",
+              "qTrib": "24.0000",
+              "vUnTrib": "3.02",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "0",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "72.48",
+                  "pICMS": "12.00",
+                  "vICMS": "8.70"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "99",
+                  "vBC": "0.00",
+                  "pIPI": "0.00",
+                  "vIPI": "0.00"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "63.78",
+                  "pPIS": "1.65",
+                  "vPIS": "1.05"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "63.78",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "4.85"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "64"
+            },
+            "prod": {
+              "cProd": "5199040107",
+              "cEAN": "7893946026264",
+              "xProd": "GRAFITE EM SPRAY 130G            VONDER",
+              "NCM": "25049000",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "12.0000",
+              "vUnCom": "10.78",
+              "vProd": "129.36",
+              "cEANTrib": "7893946026264",
+              "uTrib": "PC",
+              "qTrib": "12.0000",
+              "vUnTrib": "10.78",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "0",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "129.36",
+                  "pICMS": "12.00",
+                  "vICMS": "15.52"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "99",
+                  "vBC": "0.00",
+                  "pIPI": "0.00",
+                  "vIPI": "0.00"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "113.84",
+                  "pPIS": "1.65",
+                  "vPIS": "1.88"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "113.84",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "8.65"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "65"
+            },
+            "prod": {
+              "cProd": "5199306200",
+              "cEAN": "7893946473686",
+              "xProd": "LIMPA CONTATO SPRAY INFL.300ML/200G  954",
+              "NCM": "27101249",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "12.0000",
+              "vUnCom": "10.13",
+              "vProd": "121.56",
+              "cEANTrib": "7893946473686",
+              "uTrib": "PC",
+              "qTrib": "12.0000",
+              "vUnTrib": "10.13",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "0",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "121.56",
+                  "pICMS": "12.00",
+                  "vICMS": "14.59"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "99",
+                  "vBC": "0.00",
+                  "pIPI": "0.00",
+                  "vIPI": "0.00"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "106.97",
+                  "pPIS": "1.65",
+                  "vPIS": "1.77"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "106.97",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "8.13"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "66"
+            },
+            "prod": {
+              "cProd": "6001000012",
+              "cEAN": "7893946600143",
+              "xProd": "PARAFUS/FURAD BAT 12V PFV012I C/IMP VD",
+              "NCM": "84672992",
+              "CEST": "0801900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "4.0000",
+              "vUnCom": "237.83",
+              "vProd": "951.32",
+              "cEANTrib": "7893946600143",
+              "uTrib": "PC",
+              "qTrib": "4.0000",
+              "vUnTrib": "237.83",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "951.32",
+                  "pICMS": "4.00",
+                  "vICMS": "38.05"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "951.32",
+                  "pIPI": "5.20",
+                  "vIPI": "49.47"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "913.27",
+                  "pPIS": "1.65",
+                  "vPIS": "15.07"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "913.27",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "69.41"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "67"
+            },
+            "prod": {
+              "cProd": "6001012360",
+              "cEAN": "7893946564957",
+              "xProd": "PARAFUSADEIRA BAT3,6V KIT C/12BITS VONDE",
+              "NCM": "84672992",
+              "CEST": "0801900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "JG",
+              "qCom": "4.0000",
+              "vUnCom": "113.39",
+              "vProd": "453.56",
+              "cEANTrib": "7893946564957",
+              "uTrib": "JG",
+              "qTrib": "4.0000",
+              "vUnTrib": "113.39",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "453.56",
+                  "pICMS": "4.00",
+                  "vICMS": "18.14"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "453.56",
+                  "pIPI": "5.20",
+                  "vIPI": "23.59"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "435.42",
+                  "pPIS": "1.65",
+                  "vPIS": "7.18"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "435.42",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "33.09"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "68"
+            },
+            "prod": {
+              "cProd": "6001020230",
+              "cEAN": "7893946563905",
+              "xProd": "SOPRADOR TERMICO STV200 220V VONDER",
+              "NCM": "84672999",
+              "CEST": "0801900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "6.0000",
+              "vUnCom": "177.11",
+              "vProd": "1062.66",
+              "cEANTrib": "7893946563905",
+              "uTrib": "PC",
+              "qTrib": "6.0000",
+              "vUnTrib": "177.11",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "1062.66",
+                  "pICMS": "4.00",
+                  "vICMS": "42.51"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "1062.66",
+                  "pIPI": "5.20",
+                  "vIPI": "55.26"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "1020.15",
+                  "pPIS": "1.65",
+                  "vPIS": "16.83"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "1020.15",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "77.53"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "69"
+            },
+            "prod": {
+              "cProd": "6001300020",
+              "cEAN": "7893946217877",
+              "xProd": "FURAD/PARAF 3/8\" FPV300 220V VONDER",
+              "NCM": "84672992",
+              "CEST": "0801900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "2.0000",
+              "vUnCom": "182.55",
+              "vProd": "365.10",
+              "cEANTrib": "7893946217877",
+              "uTrib": "PC",
+              "qTrib": "2.0000",
+              "vUnTrib": "182.55",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "365.10",
+                  "pICMS": "4.00",
+                  "vICMS": "14.60"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "365.10",
+                  "pIPI": "5.20",
+                  "vIPI": "18.99"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "350.50",
+                  "pPIS": "1.65",
+                  "vPIS": "5.78"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "350.50",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "26.64"
+                }
+              }
+            },
+            "infAdProd": "PLUGUE DE ACORDO NR 14.136"
+          },
+          {
+            "$": {
+              "nItem": "70"
+            },
+            "prod": {
+              "cProd": "6067003230",
+              "cEAN": "7893946468309",
+              "xProd": "MICRORRETIFICA 230V 60HZ MRN230 954",
+              "NCM": "84672999",
+              "CEST": "0801900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "4.0000",
+              "vUnCom": "127.65",
+              "vProd": "510.60",
+              "cEANTrib": "7893946468309",
+              "uTrib": "PC",
+              "qTrib": "4.0000",
+              "vUnTrib": "127.65",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "510.60",
+                  "pICMS": "4.00",
+                  "vICMS": "20.42"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "510.60",
+                  "pIPI": "5.20",
+                  "vIPI": "26.55"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "490.18",
+                  "pPIS": "1.65",
+                  "vPIS": "8.09"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "490.18",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "37.25"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "71"
+            },
+            "prod": {
+              "cProd": "6068172023",
+              "cEAN": "7893946468323",
+              "xProd": "MICRORRETIFICA+ACESS AMR172 230V 954",
+              "NCM": "84672999",
+              "CEST": "0801900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "CJ",
+              "qCom": "4.0000",
+              "vUnCom": "220.93",
+              "vProd": "883.72",
+              "cEANTrib": "7893946468323",
+              "uTrib": "CJ",
+              "qTrib": "4.0000",
+              "vUnTrib": "220.93",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "883.72",
+                  "pICMS": "4.00",
+                  "vICMS": "35.35"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "883.72",
+                  "pIPI": "5.20",
+                  "vIPI": "45.95"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "848.37",
+                  "pPIS": "1.65",
+                  "vPIS": "14.00"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "848.37",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "64.48"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "72"
+            },
+            "prod": {
+              "cProd": "6068300070",
+              "cEAN": "7893946468514",
+              "xProd": "ACESSORIOS P/MICRORRETIFICA AMR70 954",
+              "NCM": "84679900",
+              "CEST": "0801900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "CJ",
+              "qCom": "15.0000",
+              "vUnCom": "44.99",
+              "vProd": "674.85",
+              "cEANTrib": "7893946468514",
+              "uTrib": "CJ",
+              "qTrib": "15.0000",
+              "vUnTrib": "44.99",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "674.85",
+                  "pICMS": "4.00",
+                  "vICMS": "26.99"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "674.85",
+                  "pIPI": "5.20",
+                  "vIPI": "35.09"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "647.86",
+                  "pPIS": "1.65",
+                  "vPIS": "10.69"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "647.86",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "49.24"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "73"
+            },
+            "prod": {
+              "cProd": "6068300208",
+              "cEAN": "7893946468828",
+              "xProd": "ACESSORIOS P/MICRORRETIFICA AMR208 954",
+              "NCM": "84679900",
+              "CEST": "0801900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "CJ",
+              "qCom": "4.0000",
+              "vUnCom": "96.33",
+              "vProd": "385.32",
+              "cEANTrib": "7893946468828",
+              "uTrib": "CJ",
+              "qTrib": "4.0000",
+              "vUnTrib": "96.33",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "385.32",
+                  "pICMS": "4.00",
+                  "vICMS": "15.41"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "385.32",
+                  "pIPI": "5.20",
+                  "vIPI": "20.04"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "369.91",
+                  "pPIS": "1.65",
+                  "vPIS": "6.10"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "369.91",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "28.11"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "74"
+            },
+            "prod": {
+              "cProd": "6068300257",
+              "cEAN": "7893946468842",
+              "xProd": "ACESSORIOS P/MICRORRETIFICA AMR257 954",
+              "NCM": "84679900",
+              "CEST": "0801900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "CJ",
+              "qCom": "1.0000",
+              "vUnCom": "127.39",
+              "vProd": "127.39",
+              "cEANTrib": "7893946468842",
+              "uTrib": "CJ",
+              "qTrib": "1.0000",
+              "vUnTrib": "127.39",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "127.39",
+                  "pICMS": "4.00",
+                  "vICMS": "5.10"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "127.39",
+                  "pIPI": "5.20",
+                  "vIPI": "6.62"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "122.29",
+                  "pPIS": "1.65",
+                  "vPIS": "2.02"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "122.29",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "9.29"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "75"
+            },
+            "prod": {
+              "cProd": "6847003000",
+              "cEAN": "7893946525231",
+              "xProd": "CARREGADOR INT DE BATERIA CIB003 MOTO VD",
+              "NCM": "85044010",
+              "CEST": "2103700",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "4.0000",
+              "vUnCom": "133.07",
+              "vProd": "532.28",
+              "cEANTrib": "7893946525231",
+              "uTrib": "PC",
+              "qTrib": "4.0000",
+              "vUnTrib": "133.07",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "532.28",
+                  "pICMS": "4.00",
+                  "vICMS": "21.29"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "532.28",
+                  "pIPI": "3.25",
+                  "vIPI": "17.30"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "510.99",
+                  "pPIS": "1.65",
+                  "vPIS": "8.43"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "510.99",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "38.84"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "76"
+            },
+            "prod": {
+              "cProd": "6847084220",
+              "cEAN": "7893946580889",
+              "xProd": "CARREGADOR INT DE BATERIA CIB084 220V VD",
+              "NCM": "85044010",
+              "CEST": "2103700",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "3.0000",
+              "vUnCom": "206.83",
+              "vProd": "620.49",
+              "cEANTrib": "7893946580889",
+              "uTrib": "PC",
+              "qTrib": "3.0000",
+              "vUnTrib": "206.83",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "620.49",
+                  "pICMS": "4.00",
+                  "vICMS": "24.82"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "620.49",
+                  "pIPI": "3.25",
+                  "vIPI": "20.17"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "595.67",
+                  "pPIS": "1.65",
+                  "vPIS": "9.83"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "595.67",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "45.27"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "77"
+            },
+            "prod": {
+              "cProd": "6847160220",
+              "cEAN": "7893946463076",
+              "xProd": "CARREGADOR BATERIA CBV1600 220V VONDER",
+              "NCM": "85044010",
+              "CEST": "2103700",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "1.0000",
+              "vUnCom": "423.47",
+              "vProd": "423.47",
+              "cEANTrib": "7893946463076",
+              "uTrib": "PC",
+              "qTrib": "1.0000",
+              "vUnTrib": "423.47",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "423.47",
+                  "pICMS": "4.00",
+                  "vICMS": "16.94"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "423.47",
+                  "pIPI": "3.25",
+                  "vIPI": "13.76"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "406.53",
+                  "pPIS": "1.65",
+                  "vPIS": "6.71"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "406.53",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "30.90"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "78"
+            },
+            "prod": {
+              "cProd": "6847950220",
+              "cEAN": "7893946463052",
+              "xProd": "CARREGADOR BATERIA CBV 950 220V VONDER",
+              "NCM": "85044010",
+              "CEST": "2103700",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "1.0000",
+              "vUnCom": "309.09",
+              "vProd": "309.09",
+              "cEANTrib": "7893946463052",
+              "uTrib": "PC",
+              "qTrib": "1.0000",
+              "vUnTrib": "309.09",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "309.09",
+                  "pICMS": "4.00",
+                  "vICMS": "12.36"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "309.09",
+                  "pIPI": "3.25",
+                  "vIPI": "10.05"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "296.73",
+                  "pPIS": "1.65",
+                  "vPIS": "4.90"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "296.73",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "22.55"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "79"
+            },
+            "prod": {
+              "cProd": "7055110000",
+              "cEAN": "7893946064358",
+              "xProd": "OCULOS FOXTER INCOLOR VONDER",
+              "NCM": "90049020",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "4.09",
+              "vProd": "20.45",
+              "cEANTrib": "7893946064358",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "4.09",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "20.45",
+                  "pICMS": "4.00",
+                  "vICMS": "0.82"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "20.45",
+                  "pIPI": "3.25",
+                  "vIPI": "0.66"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "19.63",
+                  "pPIS": "1.65",
+                  "vPIS": "0.32"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "19.63",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.49"
+                }
+              }
+            },
+            "infAdProd": "PRODUTO C/ C.A."
+          },
+          {
+            "$": {
+              "nItem": "80"
+            },
+            "prod": {
+              "cProd": "7055140000",
+              "cEAN": "7893946064389",
+              "xProd": "OCULOS FOXTER FUME VONDER",
+              "NCM": "90049020",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "4.09",
+              "vProd": "20.45",
+              "cEANTrib": "7893946064389",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "4.09",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "20.45",
+                  "pICMS": "4.00",
+                  "vICMS": "0.82"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "20.45",
+                  "pIPI": "3.25",
+                  "vIPI": "0.66"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "19.63",
+                  "pPIS": "1.65",
+                  "vPIS": "0.32"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "19.63",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "1.49"
+                }
+              }
+            },
+            "infAdProd": "PRODUTO C/ C.A."
+          },
+          {
+            "$": {
+              "nItem": "81"
+            },
+            "prod": {
+              "cProd": "7899000025",
+              "cEAN": "7893946027094",
+              "xProd": "CABO DE TRANSMISSAO/CHUPETA 3,0M VONDER",
+              "NCM": "85444200",
+              "CEST": "0199900",
+              "indEscala": "S",
+              "CFOP": "6102",
+              "uCom": "PC",
+              "qCom": "5.0000",
+              "vUnCom": "47.50",
+              "vProd": "237.50",
+              "cEANTrib": "7893946027094",
+              "uTrib": "PC",
+              "qTrib": "5.0000",
+              "vUnTrib": "47.50",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "237.50",
+                  "pICMS": "4.00",
+                  "vICMS": "9.50"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPITrib": {
+                  "CST": "50",
+                  "vBC": "237.50",
+                  "pIPI": "5.00",
+                  "vIPI": "11.88"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "228.00",
+                  "pPIS": "1.65",
+                  "vPIS": "3.76"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "228.00",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "17.33"
+                }
+              }
+            }
+          },
+          {
+            "$": {
+              "nItem": "82"
+            },
+            "prod": {
+              "cProd": "8014250080",
+              "cEAN": "7893946169442",
+              "xProd": "CINTA AMARR.CARGA JG 0,8T/0,4T CC080 VD",
+              "NCM": "63079090",
+              "CFOP": "6102",
+              "uCom": "JG",
+              "qCom": "3.0000",
+              "vUnCom": "28.27",
+              "vProd": "84.81",
+              "cEANTrib": "7893946169442",
+              "uTrib": "JG",
+              "qTrib": "3.0000",
+              "vUnTrib": "28.27",
+              "indTot": "1",
+              "nItemPed": "0"
+            },
+            "imposto": {
+              "ICMS": {
+                "ICMS00": {
+                  "orig": "1",
+                  "CST": "00",
+                  "modBC": "3",
+                  "vBC": "84.81",
+                  "pICMS": "4.00",
+                  "vICMS": "3.39"
+                }
+              },
+              "IPI": {
+                "cEnq": "999",
+                "IPINT": {
+                  "CST": "51"
+                }
+              },
+              "II": {
+                "vBC": "0.00",
+                "vDespAdu": "0.00",
+                "vII": "0.00",
+                "vIOF": "0.00"
+              },
+              "PIS": {
+                "PISAliq": {
+                  "CST": "01",
+                  "vBC": "81.42",
+                  "pPIS": "1.65",
+                  "vPIS": "1.34"
+                }
+              },
+              "COFINS": {
+                "COFINSAliq": {
+                  "CST": "01",
+                  "vBC": "81.42",
+                  "pCOFINS": "7.60",
+                  "vCOFINS": "6.19"
+                }
+              }
+            }
+          }
+        ],
+        "total": {
+          "ICMSTot": {
+            "vBC": "13003.88",
+            "vICMS": "575.93",
+            "vICMSDeson": "0.00",
+            "vFCPUFDest": "0.00",
+            "vICMSUFDest": "0.00",
+            "vICMSUFRemet": "0.00",
+            "vFCP": "0.00",
+            "vBCST": "0.00",
+            "vST": "0.00",
+            "vFCPST": "0.00",
+            "vFCPSTRet": "0.00",
+            "vProd": "13003.88",
+            "vFrete": "0.00",
+            "vSeg": "0.00",
+            "vDesc": "0.00",
+            "vII": "0.00",
+            "vIPI": "627.25",
+            "vIPIDevol": "0.00",
+            "vPIS": "205.07",
+            "vCOFINS": "944.54",
+            "vOutro": "0.00",
+            "vNF": "13631.13",
+            "vTotTrib": "0.00"
+          }
+        },
+        "transp": {
+          "modFrete": "0",
+          "transporta": {
+            "CNPJ": "08848231001486",
+            "xNome": "ATUAL CARGAS TRANSPORTES LTDA",
+            "IE": "105935867",
+            "xEnder": "AVENIDA CENTRAL,",
+            "xMun": "GOIANIA",
+            "UF": "GO"
+          },
+          "vol": {
+            "qVol": "0",
+            "pesoL": "0.000",
+            "pesoB": "0.000"
+          }
+        },
+        "cobr": {
+          "fat": {
+            "nFat": "741827",
+            "vOrig": "13631.13",
+            "vDesc": "0.00",
+            "vLiq": "13631.13"
+          },
+          "dup": [
+            {
+              "nDup": "001",
+              "dVenc": "2022-07-01",
+              "vDup": "2726.25"
+            },
+            {
+              "nDup": "002",
+              "dVenc": "2022-07-16",
+              "vDup": "2726.22"
+            },
+            {
+              "nDup": "003",
+              "dVenc": "2022-07-31",
+              "vDup": "2726.22"
+            },
+            {
+              "nDup": "004",
+              "dVenc": "2022-08-15",
+              "vDup": "2726.22"
+            },
+            {
+              "nDup": "005",
+              "dVenc": "2022-08-30",
+              "vDup": "2726.22"
+            }
+          ]
+        },
+        "pag": {
+          "detPag": {
+            "indPag": "1",
+            "tPag": "15",
+            "vPag": "13631.13"
+          }
+        },
+        "infAdic": {
+          "infCpl": "END.ENTREGA: AVENIDA DANIEL DE LA TOUCHE         2004            REV            |CIDADE: SAO LUIS             UF: MA  VEND: SANTILIA COS  I882   T:   81         |(A)PROD INDL.C/BASE RED.CFE ART.9,SEC.II,ANEX.IX RCTE/GO (CV.52/91)       |            VI 000 VE61683 PG 157 L-455838 P-871833 B01      |CONDICOES DE PGT.30/45/60/75/90 DD      ENTRADA     0,00       |NAO HAVENDO OUTRAS NFI'S COM IGUAL COND.PGTO NO PERIODO 30/05 A 05/06     |SEUS VCTOS SERAO:    01/07 16/07 31/07 15/08 30/08             |               COBRANCA : * BANCO ITAU        *      |BASE PIS/COFINS S/ICMS CALCULADO DE ACORDO COM LIMINAR 50104606520174047000PR  |2a VIA BOLETO BANCARIO DISPONIVEL NO SITE www.osten.com.br            |O(s) ITEM(s) DESTA NOTA FORAM EMBALADOS JUNTAMENTE COM OS ITENS DA NF. 312100/",
+          "obsCont": [
+            {
+              "$": {
+                "xCampo": "Pedido"
+              },
+              "xTexto": "004842631"
+            },
+            {
+              "$": {
+                "xCampo": "Subdivisao"
+              },
+              "xTexto": "01"
+            }
+          ]
+        }
+      },
+      "Signature": {
+        "$": {
+          "xmlns": "http://www.w3.org/2000/09/xmldsig#"
+        },
+        "SignedInfo": {
+          "CanonicalizationMethod": {
+            "$": {
+              "Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+            }
+          },
+          "SignatureMethod": {
+            "$": {
+              "Algorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1"
+            }
+          },
+          "Reference": {
+            "$": {
+              "URI": "#NFe52220676635689001326550010003121011000338294"
+            },
+            "Transforms": {
+              "Transform": [
+                {
+                  "$": {
+                    "Algorithm": "http://www.w3.org/2000/09/xmldsig#enveloped-signature"
+                  }
+                },
+                {
+                  "$": {
+                    "Algorithm": "http://www.w3.org/TR/2001/REC-xml-c14n-20010315"
+                  }
+                }
+              ]
+            },
+            "DigestMethod": {
+              "$": {
+                "Algorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
+              }
+            },
+            "DigestValue": "OSA/8OFjMF7ScJoPn5XYVEKDDIk="
+          }
+        },
+        "SignatureValue": "Z126YX38B5+jShrdcXnMcq7cZa49A6RWCKjaiVfRxVP+5+Ib1TqoETL5yaue4qtg9kXuZCbQKXtHG+psdps98UQp2aUaHQE3tGqT4821S3W4OsxrR342DIlx+xeFNX2JGDKpdVQ6HTtSx8pYSvb/jn4EVG1aH5FDzM+FGwoXf+y3jTaJJMLLkqz6Go768yIuQ33hxlEox2CQ7llbX1Os6h9DGY7AQWUrOat589z1AFAWs0thqLGYEmozplWHSGo+47xOV/Nz+QY8h+2NCg1xSq2jr0EE1UUVF/gAPrkcm10ZhmPNp+DuHkiBGOwD+gNmo+6/muuB6PYlyCOBMBw7Ow==",
+        "KeyInfo": {
+          "X509Data": {
+            "X509Certificate": "MIIH6jCCBdKgAwIBAgIQWtrBIPZC70PID97HDZ63dzANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQGEwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDEtMCsGA1UECxMkQ2VydGlzaWduIENlcnRpZmljYWRvcmEgRGlnaXRhbCBTLkEuMSEwHwYDVQQDExhBQyBDZXJ0aXNpZ24gTXVsdGlwbGEgRzcwHhcNMjExMjIxMTc0ODU1WhcNMjIxMjIxMTc0ODU1WjCBvDELMAkGA1UEBhMCQlIxEzARBgNVBAoMCklDUC1CcmFzaWwxHjAcBgNVBAsMFUFDIENlcnRpc2lnbiBNdWx0aXBsYTEXMBUGA1UECwwOMTUyODM1MTUwMDAxMTMxEzARBgNVBAsMClByZXNlbmNpYWwxGzAZBgNVBAsMEkFzc2luYXR1cmEgVGlwbyBBMTEtMCsGA1UEAwwkT1ZEIElNUE9SVEFET1JBIEUgRElTVFJJQlVJRE9SQSBMVERBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsBb1Hyk/DOum+8qGWB18B9pdaoPFe/CoLtbb740LB2loSbGkb0aEd7+DBnC/nRNXHXLy3ZFFOpxsLxvM33ZQMeXsrgqPkZYpnXoTBAij+YGW28ZWCFUaYHwFa3hh03h9+mZqYJru3UNnHumNKBmtQe1BBrPeb2oc9BUMQO5OYh5iOCtyBN3xba/7pzbQEm+El39y45rWIGB7WXgHAxLv98SomO3A0OWDrIybOpF9SvzYmgVU7legmuhacinfFGK+XOYi/7ERVAUD7w8sYMO/RaDM9366nqBuDEiMA+gIyAP2DlCWHF/3RbREXys8bFuwyjEZ9D9QNnq1fRo9HwBKQQIDAQABo4IDLTCCAykwgbsGA1UdEQSBszCBsKA+BgVgTAEDBKA1BDMwMzAxMTk1NDIwMTY2NzAyOTAwMDAwMDAwMDAwMDAwMDAwMDAwMDg3Mzk2NDFTRVNQUFKgIAYFYEwBAwKgFwQVT1JMQU5ETyBWT04gREVSIE9TVEVOoBkGBWBMAQMDoBAEDjc2NjM1Njg5MDAwMTkyoBcGBWBMAQMHoA4EDDAwMDAwMDAwMDAwMIEYY29udGFiaWxpZGFkZUBvdmQuY29tLmJyMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUXXIMvzPSu+OGpuhMBnF+VVwHoNYwgYsGA1UdIASBgzCBgDB+BgZgTAECAQswdDByBggrBgEFBQcCARZmaHR0cDovL2ljcC1icmFzaWwuY2VydGlzaWduLmNvbS5ici9yZXBvc2l0b3Jpby9kcGMvQUNfQ2VydGlzaWduX011bHRpcGxhL0RQQ19BQ19DZXJ0aVNpZ25fTXVsdGlwbGEucGRmMIHGBgNVHR8Egb4wgbswXKBaoFiGVmh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduTXVsdGlwbGFHNy9MYXRlc3RDUkwuY3JsMFugWaBXhlVodHRwOi8vaWNwLWJyYXNpbC5vdXRyYWxjci5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduTXVsdGlwbGFHNy9MYXRlc3RDUkwuY3JsMA4GA1UdDwEB/wQEAwIF4DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwgbYGCCsGAQUFBwEBBIGpMIGmMGQGCCsGAQUFBzAChlhodHRwOi8vaWNwLWJyYXNpbC5jZXJ0aXNpZ24uY29tLmJyL3JlcG9zaXRvcmlvL2NlcnRpZmljYWRvcy9BQ19DZXJ0aXNpZ25fTXVsdGlwbGFfRzcucDdjMD4GCCsGAQUFBzABhjJodHRwOi8vb2NzcC1hYy1jZXJ0aXNpZ24tbXVsdGlwbGEuY2VydGlzaWduLmNvbS5icjANBgkqhkiG9w0BAQsFAAOCAgEAO5fqLeXdBooDvESHOc0Ca13+BVbNK9w3YOK71yPglDiz5QoKTw7Ur+ZAT+gwTpi8/tlGPIsxq719y8+XnJuOVSbTY4g3+HwPy1pELFrlAN5jGL7H31BpNEG7AFJpSNjkEL/90d8vNmjORkcphn3aDl7MIUjve/CWghgZyY8JgiNPW28KFwzoiWV6e5f3VOz/dub4cr6TIqmHFU/ZbbpBLTIxUT59oUAaLWR4bPlbV8y8lJNVotmS5h9Lh2VhXyZomUv3g7zMWboWeeb/ReJlkiBDx3A5tXH776WnUnNRf3uONq3T7+lPO5qbE/cuyCFWOCBw69CUIJfK5ymjBUZ/2vj6IwzA9fAqwy+QBXlshn6cPlvnoTcxFvunffQGhBt1XiYK5f027xro/E8g87MdFXDgYTmWqa+WL9L0dBb8G/pvF2SneMFDg3qkSqavFRkhDLOF3Fcq5XY2oe64R7XSV8vvm+7FQCJHYv3XWv5reK4Ag3AXtCQLxyV+eBYRxhmWcL/gWeFQ8zPHx6U2LBaFqbSLnfo8n1E3cRpvVfpr3vEqxd4UebXaCD4Qc9fvN0WscdLiZngnry6zFJSjYc/h2yEXe5jRbfcdrZWHfxiYY1oovkr4iwVp4JsxASlLAj0dFsAweGQPrn7UGMOiJq5k/GzAliLZIw69+72P/dhmvqU="
+          }
+        }
+      }
+    },
+    "protNFe": {
+      "$": {
+        "versao": "4.00"
+      },
+      "infProt": {
+        "$": {
+          "Id": "ID152225175890239"
+        },
+        "tpAmb": "1",
+        "verAplic": "0.0.1",
+        "chNFe": "52220676635689001326550010003121011000338294",
+        "dhRecbto": "2022-06-01T16:44:17-03:00",
+        "nProt": "152225175890239",
+        "digVal": "OSA/8OFjMF7ScJoPn5XYVEKDDIk=",
+        "cStat": "100",
+        "xMotivo": "Autorizado o uso da NF-e"
+      }
+    }
+  }
+}
