@@ -2,15 +2,14 @@
 import { PlaywrightCrawler } from 'crawlee';
 import { router } from './routes.js';
 
-
 class Alexandre {
   private crawler
 
   constructor() {
-    this.crawler = new PlaywrightCrawler({requestHandler: router})
+    this.crawler = new PlaywrightCrawler({ requestHandler: router, headless: false })
   }
 
-  async execute({ route, data }: {route: string, data: any}) {
+  async execute({ route, data }: { route: string, data: any }) {
     const startUrls = [{
       url:'https://srv1.meuewiki.com.br/mgerencia/login/casaarruda.com.br/mFtwWkgMZ5hx74SyXRQB',
       label: 'login',
@@ -24,8 +23,8 @@ class Alexandre {
   }
 }
 
-export {Alexandre}
-
+export { Alexandre };
+/* 
 const alexandre = () => {
   const crawler = new PlaywrightCrawler({
     requestHandler: router,
@@ -56,4 +55,4 @@ const alexandre = () => {
     }])
   }
   }
-}
+} */

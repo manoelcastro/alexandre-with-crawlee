@@ -5,14 +5,15 @@ export const captureNf = async ({ page, request }: PlaywrightCrawlingContext) =>
   const { userData } = request
 
   const order = userData.data.order
+  
   await page.waitForLoadState(`load`)
 
   const openSearchFields = page.locator('.fastsearchContainerSearch')
   
   await openSearchFields.click()
 
-  await page.locator('input[name=idVenda]').fill(order)
-  await page.press('input[name=idVenda]', 'Enter')
+  await page.locator('.modal-body input[name=idVenda]').fill(order)
+  await page.press('.modal-body input[name=idVenda]', 'Enter')
 
   const resultOfSearch = page.locator('tbody > tr > td')
 
@@ -23,14 +24,14 @@ export const captureNf = async ({ page, request }: PlaywrightCrawlingContext) =>
     return
   }
 
-  const numberNFField = resultOfSearch.nth(5)
+  const numberNFField = resultOfSearch.locator('a.btn-default')
   const numberNf = await numberNFField.textContent()
   
   if (numberNf === '') {
     console.log('Nao existe link')
     return
   }
-  const typeNF = await resultOfSearch.nth(4).textContent()
+  const typeNF = await resultOfSearch.nth(5).textContent()
 
   const downloadForcePDFPromise = page.waitForEvent('download')
   await numberNFField.click()

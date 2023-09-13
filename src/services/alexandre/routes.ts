@@ -1,6 +1,10 @@
 import { createPlaywrightRouter } from 'crawlee';
 import { captureNf } from './captureNf.js';
 
+import { config } from 'dotenv';
+
+config()
+
 const router = createPlaywrightRouter();
 
 router.addHandler('login', async ({ crawler, page, request }) => {
@@ -9,17 +13,18 @@ router.addHandler('login', async ({ crawler, page, request }) => {
     const userField = page.getByPlaceholder('Usuário')
     const passField = page.getByPlaceholder('Senha')
 
-    await userField.type('alexandre')
-    await passField.type('alexandre')
+    await userField.type(process.env.ERP_USER!)
+    await passField.type(process.env.ERP_PASSWORD!)
     await passField.press('Enter')
-
+  
     await page.waitForLoadState('load')
     
     await crawler.addRequests([{
-        url: page.url(),
-        label: 'inicial',
-        userData    
+      url: page.url(),
+      label: 'inicial',
+      userData    
     }])
+    
 });
 
 router.addHandler('inicial', async ({ page, crawler, request }) => {
@@ -49,4 +54,4 @@ router.addDefaultHandler(({request}) => {
   console.log(request.label)
 })
 
-export { router }
+export { router };
