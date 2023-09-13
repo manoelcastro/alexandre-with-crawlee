@@ -24,6 +24,7 @@ class Alexandre {
 }
 
 export { Alexandre };
+
 /* 
 const alexandre = () => {
   const crawler = new PlaywrightCrawler({

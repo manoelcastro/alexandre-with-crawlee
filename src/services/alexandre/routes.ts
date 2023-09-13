@@ -2,6 +2,7 @@ import { createPlaywrightRouter } from 'crawlee';
 import { captureNf } from './captureNf.js';
 
 import { config } from 'dotenv';
+import { captureEstoque } from './captureEstoque.js';
 
 config()
 
@@ -24,7 +25,6 @@ router.addHandler('login', async ({ crawler, page, request }) => {
       label: 'inicial',
       userData    
     }])
-    
 });
 
 router.addHandler('inicial', async ({ page, crawler, request }) => {
@@ -49,6 +49,7 @@ router.addHandler('inicial', async ({ page, crawler, request }) => {
 });
 
 router.addHandler('1906 - Central de Vendas', captureNf)
+router.addHandler('1200 - CENTRAL DE PRODUTOS, ESTOQUES E COMPRAS', captureEstoque)
 
 router.addDefaultHandler(({request}) => {
   console.log(request.label)

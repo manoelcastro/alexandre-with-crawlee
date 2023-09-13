@@ -14,5 +14,5 @@ const alexandreInstance = new Alexandre()
 worker.on('completed', job => console.log(`${job.id} has completed`)) */
 
 alexandreInstance.execute({
-  route: '1906', data: {order: '969219'}
-}).then(response => console.log(response))
+  route: '1200', data: { cod: '902559'}
+})
