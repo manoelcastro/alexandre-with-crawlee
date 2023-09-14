@@ -6,8 +6,8 @@ export const captureEstoque = async ({ request, page }: PlaywrightCrawlingContex
   const listaDeProdutos = page.locator('a.site-tab').getByText('Lista de Produtos')
   await listaDeProdutos.click()
 
-  console.log(userData)
-  await page.waitForLoadState(`load`)
+  console.log('imprimindo', userData)
+  /* await page.waitForLoadState(`load`)
 
   const openSearchFields = page.locator('.fastsearchContainerSearch')
   
@@ -27,5 +27,5 @@ export const captureEstoque = async ({ request, page }: PlaywrightCrawlingContex
   selectedFiliais.
   titleFiliais && await filiais.getByText(titleFiliais).click()
 
-  await page.waitForTimeout(10000)
+  await page.waitForTimeout(10000) */
 }

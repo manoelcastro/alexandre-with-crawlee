@@ -1,12 +1,13 @@
 // For more information, see https://crawlee.dev/
 import { PlaywrightCrawler } from 'crawlee';
+import { v4 as uuidv4 } from 'uuid';
 import { router } from './routes.js';
 
 class Alexandre {
   private crawler
 
   constructor() {
-    this.crawler = new PlaywrightCrawler({ requestHandler: router, headless: false })
+    this.crawler = new PlaywrightCrawler({ requestHandler: router, headless: true })
   }
 
   async execute({ route, data }: { route: string, data: any }) {
@@ -16,7 +17,8 @@ class Alexandre {
       userData: {
         route,
         data  
-      }
+      },
+      uniqueKey: uuidv4()
     }];
     
     await this.crawler.run(startUrls);
