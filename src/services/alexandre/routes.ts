@@ -1,9 +1,12 @@
-import { createPlaywrightRouter } from 'crawlee';
-import { v4 as uuidv4 } from 'uuid';
-import { captureNf } from './captureNf.js';
+import { createPlaywrightRouter } from 'crawlee'
+import { v4 as uuidv4 } from 'uuid'
+import { captureNf } from './captureNf.js'
 
-import { config } from 'dotenv';
-import { captureEstoque } from './captureEstoque.js';
+import { config } from 'dotenv'
+import { captureEstoque } from './captureEstoque.js'
+import { captureHistory } from './captureHistory.js'
+import { captureSuggest } from './captureSuggest.js'
+import { parseEntryNf } from './parseEntryNf.js'
 
 config()
 
@@ -46,14 +49,18 @@ router.addHandler('inicial', async ({ page, crawler, request }) => {
   }, userData)
 
   //@ts-ignore
-  await crawler.addRequests([{...queue, uniqueKey: uuidv4()}])
+  await crawler.addRequests([{...queue, uniqueKey: uuidv4(), label: `${userData.action}`}])
 });
 
-router.addHandler('1906 - Central de Vendas', captureNf)
-router.addHandler('1200 - CENTRAL DE PRODUTOS, ESTOQUES E COMPRAS', captureEstoque)
+router.addHandler('captureNf', captureNf)
+router.addHandler('captureEstoque', captureEstoque)
+router.addHandler('captureHistory', captureHistory)
+router.addHandler('parseEntryNf', parseEntryNf)
+router.addHandler('suggest', captureSuggest)
 
 router.addDefaultHandler(({request}) => {
   console.log('isso aqui', request.label)
 })
 
-export { router };
+export { router }
+

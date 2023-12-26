@@ -7,15 +7,22 @@ class Alexandre {
   private crawler
 
   constructor() {
-    this.crawler = new PlaywrightCrawler({ requestHandler: router, headless: true })
+    this.crawler = new PlaywrightCrawler({
+      requestHandler: router,
+      headless: true,
+      keepAlive: false,
+      requestHandlerTimeoutSecs: 1800,
+      minConcurrency: 8 
+    })
   }
 
-  async execute({ route, data }: { route: string, data: any }) {
+  async execute({ route, action, data }: { route: string, action: string, data: any }) {
     const startUrls = [{
       url:'https://srv1.meuewiki.com.br/mgerencia/login/casaarruda.com.br/mFtwWkgMZ5hx74SyXRQB',
       label: 'login',
       userData: {
         route,
+        action,
         data  
       },
       uniqueKey: uuidv4()
@@ -26,36 +33,3 @@ class Alexandre {
 }
 
 export { Alexandre };
-
-/* 
-const alexandre = () => {
-  const crawler = new PlaywrightCrawler({
-    requestHandler: router,
-  })
-
-  return {
-    execute: async ({ route, data }: {route: string, data: any}) => {
-    const startUrls = [{
-      url:'https://srv1.meuewiki.com.br/mgerencia/login/casaarruda.com.br/mFtwWkgMZ5hx74SyXRQB',
-      label: 'login',
-      userData: {
-        route,
-        data  
-      }
-    }];
-    
-    await crawler.run(startUrls);
-  },
-  addRequests: async ({ route, data }: {route: string, data: any}) => {
-    await crawler.addRequests([{
-      url: 'https://srv1.meuewiki.com.br/mgerencia/#index/index',
-      uniqueKey: `https://srv1.meuewiki.com.br/mgerencia/#index/index-${data.order}`,
-      label: 'inicial',
-      userData: {
-        route,
-        data
-      }
-    }])
-  }
-  }
-} */

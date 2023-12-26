@@ -1,4 +1,5 @@
 import { PlaywrightCrawlingContext } from "crawlee";
+import path from 'path';
 
 export const captureEstoque = async ({ request, page }: PlaywrightCrawlingContext) => {
   const { userData } = request
@@ -6,8 +7,7 @@ export const captureEstoque = async ({ request, page }: PlaywrightCrawlingContex
   const listaDeProdutos = page.locator('a.site-tab').getByText('Lista de Produtos')
   await listaDeProdutos.click()
 
-  console.log('imprimindo', userData)
-  /* await page.waitForLoadState(`load`)
+  await page.waitForLoadState(`load`)
 
   const openSearchFields = page.locator('.fastsearchContainerSearch')
   
@@ -22,10 +22,32 @@ export const captureEstoque = async ({ request, page }: PlaywrightCrawlingContex
   const titleFiliais = await filialField.getAttribute('title')
   const selectedFiliais = titleFiliais?.split(',').map(s => s.trim())
 
-  const filiais = page.locator('.modal-body ul.multiselect-container li')
+  const filiaisToClick = selectedFiliais?.map(name => page.locator('.modal-body ul.multiselect-container li', { hasText: name }))
   
-  selectedFiliais.
-  titleFiliais && await filiais.getByText(titleFiliais).click()
+  if (filiaisToClick) {
+    for (const filial of filiaisToClick) {
+      await filial.click()
+    }
+  }
 
-  await page.waitForTimeout(10000) */
+  const simpleShowDiv = page.locator('.modal-body .row div', { hasText: 'Exibição Simplificada' })
+
+  const noOption = simpleShowDiv.locator('label', { hasText: 'Não' })
+  await noOption.click()
+
+  const closeModal = page.locator('.modal-content .modal-header span.modal-btn-padrao button')
+  await closeModal.click()
+
+  const searchButton = page.locator('div.site-container div.site-pusher div.site-content div.fastsearch div.row button.fastsearch_button').first()
+  await searchButton.click()
+  
+  const downloadCSVPromise = page.waitForEvent('download')
+
+  const downloadCSVButton = page.locator('div.site-container div.site-pusher div.site-content div.internal-well div.dataTables_wrapper').getByRole('link', {name: 'CSV'})
+  await downloadCSVButton.click()
+
+  const downloadCSV = await downloadCSVPromise
+  const nameCSVFile = `LISTADEPRODUTO_${userData.data.cod}.${downloadCSV.suggestedFilename().split('.').at(-1)}`
+  const pathDownloadCSV = path.join(process.cwd(), 'storage', 'downloads', 'lista_de_produto', nameCSVFile)
+  await downloadCSV.saveAs(pathDownloadCSV)
 }

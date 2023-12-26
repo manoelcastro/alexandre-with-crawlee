@@ -6,3 +6,7 @@ If you're looking for examples or want to learn more visit:
 
 - [Documentation](https://crawlee.dev/api/playwright-crawler/class/PlaywrightCrawler)
 - [Examples](https://crawlee.dev/docs/examples/playwright-crawler)
+
+TODO
+
+Inserir tratamento de erro caso não haja uma NF com o numero solicitado na divisao de estoque
